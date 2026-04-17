@@ -1,8 +1,5 @@
-body {
-    font-family: Arial;
-    background-color: #f0f0f0;
-}
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
 
-h1{
-    color: blue;
+body {
+    font-family: 'League Spartan', sans-serif;
 }
