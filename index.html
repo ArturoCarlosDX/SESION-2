@@ -12,68 +12,166 @@
 </head>
 
 <body>
-    <header class="text-gray-600 body-font">
-        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-            <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round"
-                    stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-blue-500 rounded-full"
-                    viewBox="0 0 24 24">
-                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
-                </svg>
-                <span class="ml-3 text-xl">Equipo de Desarrollo</span>
-            </a>
-            <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
-                <a class="mr-5 hover:text-gray-900">Nosotros</a>
-                <a class="mr-5 hover:text-gray-900">Preguntas</a>
-                <a class="mr-5 hover:text-gray-900">Redes Sociales</a>
-                <a class="mr-5 hover:text-gray-900">Consultas</a>
-            </nav>
-            <button
-                class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Terminal
-                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                    class="w-4 h-4 ml-1" viewBox="0 0 24 24">
-                    <path d="M5 12h14M12 5l7 7-7 7"></path>
-                </svg>
-            </button>
-        </div>
-    </header>
-    <section class="text-gray-600 body-font">
-        <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-            <div
-                class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-                <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Un equipo de Desarrollo
-                    Frontend</h1>
-                <p class="text-sm mt-2 text-gray-500 mb-8 w-full">Realizado con HTML, tailwindcss y FontsGoogle</p>
-                <div class="flex lg:flex-row md:flex-col">
-                    <button
-                        class="bg-gray-100 inline-flex py-3 px-5 rounded-lg items-center hover:bg-gray-200 focus:outline-none">
-                        <button
-                            class="bg-gray-100 inline-flex py-3 px-5 rounded-lg items-center hover:bg-gray-200 focus:outline-none">
-                            <i class="fa-brands fa-github text-2xl text-gray-900"></i>
-                            <span class="ml-4 flex items-start flex-col leading-none">
-                                <span class="text-xs text-gray-600 mb-1">Utilizando Github</span>
-                                <span class="title-font font-medium">Github</span>
-                            </span>
+    <!DOCTYPE html>
+
+    <html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Presentación del Equipo</title>
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    </head>
+
+    <body class="bg-gray-50">
+
+        ```
+        <header class="text-gray-600 body-font bg-white shadow">
+            <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+                <div class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+                    <div class="w-10 h-10 bg-blue-500 rounded-full flex items-center justify-center text-white">
+                        <i class="fa-solid fa-code"></i>
+                    </div>
+                    <span class="ml-3 text-xl">Equipo de Desarrollo</span>
+                </div>
+
+                <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
+                    <a class="mr-5 hover:text-gray-900 cursor-pointer">Nosotros</a>
+                    <a class="mr-5 hover:text-gray-900 cursor-pointer">Preguntas</a>
+                    <a class="mr-5 hover:text-gray-900 cursor-pointer">Redes</a>
+                    <a class="mr-5 hover:text-gray-900 cursor-pointer">Contacto</a>
+                </nav>
+
+                <button class="bg-gray-100 px-4 py-2 rounded hover:bg-gray-200">
+                    Terminal →
+                </button>
+            </div>
+        </header>
+
+        <section class="text-gray-600 body-font">
+            <div class="container mx-auto flex px-5 py-20 md:flex-row flex-col items-center">
+
+                <div class="lg:flex-grow md:w-1/2 flex flex-col md:items-start text-left mb-10 md:mb-0">
+                    <h1 class="text-4xl font-bold text-gray-900 mb-4">
+                        Equipo de Desarrollo Frontend
+                    </h1>
+
+                    <p class="text-gray-500 mb-6">
+                        Proyecto desarrollado con HTML, TailwindCSS y herramientas modernas para crear interfaces
+                        rápidas y atractivas.
+                    </p>
+
+                    <div class="flex flex-wrap gap-4">
+                        <button class="bg-gray-100 px-5 py-3 rounded-lg hover:bg-gray-200 flex items-center gap-3">
+                            <i class="fa-brands fa-github text-xl"></i>
+                            <span>GitHub</span>
                         </button>
-                        <button
-                            class="bg-gray-100 inline-flex py-3 px-5 rounded-lg items-center lg:ml-4 md:ml-0 ml-4 md:mt-4 mt-0 lg:mt-0 hover:bg-gray-200 focus:outline-none">
-                            <button
-                            class="bg-gray-100 inline-flex py-3 px-5 rounded-lg items-center hover:bg-gray-200 focus:outline-none">
-                            <i class="fa-solid fa-code text-2xl text-gray-900"></i>
-                            </svg>
-                            <span class="ml-4 flex items-start flex-col leading-none">
-                                <span class="text-xs text-gray-600 mb-1">Utilizando Visual Studio Code</span>
-                                <span class="title-font font-medium">Visual Studio</span>
-                            </span>
+
+                        <button class="bg-gray-100 px-5 py-3 rounded-lg hover:bg-gray-200 flex items-center gap-3">
+                            <i class="fa-solid fa-code text-xl"></i>
+                            <span>VS Code</span>
                         </button>
+                    </div>
+                </div>
+
+                <div class="md:w-1/2 w-full">
+                    <img class="rounded-lg shadow" src="Images/Senatinoplace.jpg" alt="imagen equipo">
                 </div>
             </div>
-            <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-                <img class="object-cover object-center rounded" alt="hero" src="Images/Senatinoplace.jpg">
+        </section>
+
+        <section class="text-gray-600 body-font bg-white">
+            <div class="container px-5 py-20 mx-auto">
+
+                <div class="text-center mb-12">
+                    <h1 class="text-3xl font-bold text-gray-900">Planes de Suscripción</h1>
+                    <p class="text-gray-500 mt-2">
+                        Elige el plan que mejor se adapte a tu equipo
+                    </p>
+                </div>
+
+                <div class="flex flex-wrap -m-4">
+
+                    <div class="p-4 md:w-1/4">
+                        <div class="border p-6 rounded-lg h-full">
+                            <h2 class="text-sm font-medium">INICIO</h2>
+                            <h1 class="text-4xl font-bold my-4">Gratis</h1>
+
+                            <ul class="mb-6 space-y-2">
+                                <li>✔ Acceso básico</li>
+                                <li>✔ Proyectos limitados</li>
+                                <li>✔ Soporte comunitario</li>
+                            </ul>
+
+                            <button class="w-full bg-gray-400 text-white py-2 rounded hover:bg-gray-500">
+                                Empezar
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="p-4 md:w-1/4">
+                        <div class="border-2 border-indigo-500 p-6 rounded-lg h-full">
+                            <h2 class="text-sm font-medium">PRO</h2>
+                            <h1 class="text-4xl font-bold my-4">$38<span class="text-sm">/mes</span></h1>
+
+                            <ul class="mb-6 space-y-2">
+                                <li>✔ Todo lo del plan gratis</li>
+                                <li>✔ Proyectos ilimitados</li>
+                                <li>✔ Soporte prioritario</li>
+                                <li>✔ Integración con GitHub</li>
+                            </ul>
+
+                            <button class="w-full bg-indigo-500 text-white py-2 rounded hover:bg-indigo-600">
+                                Elegir
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="p-4 md:w-1/4">
+                        <div class="border p-6 rounded-lg h-full">
+                            <h2 class="text-sm font-medium">EMPRESA</h2>
+                            <h1 class="text-4xl font-bold my-4">$56<span class="text-sm">/mes</span></h1>
+
+                            <ul class="mb-6 space-y-2">
+                                <li>✔ Gestión de equipos</li>
+                                <li>✔ Panel administrativo</li>
+                                <li>✔ Seguridad avanzada</li>
+                            </ul>
+
+                            <button class="w-full bg-gray-400 text-white py-2 rounded hover:bg-gray-500">
+                                Contactar
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="p-4 md:w-1/4">
+                        <div class="border p-6 rounded-lg h-full">
+                            <h2 class="text-sm font-medium">ESPECIAL</h2>
+                            <h1 class="text-4xl font-bold my-4">$72<span class="text-sm">/mes</span></h1>
+
+                            <ul class="mb-6 space-y-2">
+                                <li>✔ Todas las funciones</li>
+                                <li>✔ Soporte 24/7</li>
+                                <li>✔ Consultoría personalizada</li>
+                            </ul>
+
+                            <button class="w-full bg-gray-400 text-white py-2 rounded hover:bg-gray-500">
+                                Obtener
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
             </div>
-        </div>
-    </section>
-    
+        </section>
+        ```
+
+    </body>
+
+    </html>
+
+
 </body>
 
 </html>
